@@ -14,9 +14,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
-  background:
-    radial-gradient(ellipse at 15% 5%, rgb(30 77 140 / 30%), transparent 38rem),
-    linear-gradient(145deg, #071426 0%, #0a1c34 58%, #081326 100%);
+  background: linear-gradient(#05091324, #05091324), url("Fondo Corporativo.png") center center / cover no-repeat fixed #060b15;
 }
 
 .page {
@@ -110,6 +108,7 @@ footer {
 }
 
 @media (max-width: 800px) {
+  body { background-attachment: scroll; }
   .page { justify-content: flex-start; padding: 1rem; }
   .landing { grid-template-columns: 1fr; gap: 1.8rem; margin: auto; }
   .artwork { border-radius: .8rem; }
